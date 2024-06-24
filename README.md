@@ -21,7 +21,6 @@ This repository contains a collection of projects focused on image processing an
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
-### 2. Image Rectification System
 - **Description:** Implemented an image rectification system using OpenCV to correct perspective distortions and enhance image accuracy by applying denoising, edge detection, corner detection, thresholding, and more.
 - **Technologies:** Python, Pillow, OpenCV
 - **Files:**
