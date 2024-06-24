@@ -1,6 +1,6 @@
 # Computer Vision with OpenCV & Pytorch
 
-This repository contains a collection of projects focused on image processing and deep learning
+This repository contains a collection of state-of-art projects focused on image processing and deep learning
 
 ## Projects
 
