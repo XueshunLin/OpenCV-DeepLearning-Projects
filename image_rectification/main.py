@@ -8,6 +8,7 @@ def imrect(im1):
 # Parameters: im1: numpy.ndarray, an array with H*W*C representing image.(H,W is the image size and C is the channel)
 # Returns: out: numpy.ndarray, rectified image。
 #   out =im1
+
     # Convert the image to grayscale
     img_gray = cv2.cvtColor(im1, cv2.COLOR_BGR2GRAY)
     
