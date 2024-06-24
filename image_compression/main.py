@@ -53,9 +53,6 @@ def dwt2d(im, lvl, tap):
 #  Returns:
 #   out: ndarray.   An array representing  wavelet coefficients with lvl level. It has the same shape as im
 
-# ----
-# Insert your code here
-# ----
     out = np.zeros([len(im), len(im)])
     
 
@@ -77,7 +74,7 @@ def dwt2d(im, lvl, tap):
 
     return out
  
-def idwt2d(im, lvl, tap):
+def idwt2d(coef, lvl, tap):
 # Computing an image in the form of ndarray from the ndarray coef which represents its DWT coefficients.
 # Parameters: 
 #   coef: ndarray   An array representing 2D Haar wavelet coefficients
@@ -86,10 +83,7 @@ def idwt2d(im, lvl, tap):
 #  Returns:
 #   out: ndarray.   An array representing the image reconstructed from its  wavelet coefficients.
 
-# ----
-# Insert your code here
-# ----
-    out = im.copy()
+    out = coef.copy()
     # the length of the coefficients for the first level
     coef_len = len(out)//2**(lvl-1)
     # loop for number of levels
@@ -121,9 +115,6 @@ def idwt2d(im, lvl, tap):
 if __name__ == "__main__":
 # Code for testing.
 # Please modify the img_path to the path stored image and the level of wavelet decomposition.
-# Feel free to revise the codes for your convenience
-# If you have any question, please send email to e0983565@u.nus.edu for help
-# As the hw_1.pdf mentioned, you can also write the test codes on other .py file.
 
     parser = argparse.ArgumentParser(description="wavelet")
     parser.add_argument("--img_path",  type=str, default='./image_512.png',  help='The test image path')
