@@ -5,7 +5,7 @@ This repository contains a collection of state-of-art projects focused on image 
 ## Projects
 
 ### 1. Image Compression with Discrete Wavelet Transform (DWT)
-<a target="_blank" href="https://colab.research.google.com/github/Yagami11111/Pytorch-Computer-Vision/blob/main/image_compression/image_compression.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/XueshunLin/Pytorch-Computer-Vision/blob/main/image_compression/image_compression.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
