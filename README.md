@@ -5,7 +5,7 @@ This repository contains a collection of state-of-art projects focused on image 
 ## Projects
 
 ### 1. Image Compression with Discrete Wavelet Transform (DWT)
-<a target="_blank" href="https://colab.research.google.com/github/XueshunLin/OpenCV-DeepLearning-Projects/blob/main/image_compression/image_compression.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/xueshunlin/OpenCV-DeepLearning-Projects/blob/main/image_compression/image_compression.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -17,7 +17,7 @@ This repository contains a collection of state-of-art projects focused on image 
   - `image_compression/test_image.png`: Sample image used for testing.
 
 ### 2. Image Rectification System
-<a target="_blank" href="https://colab.research.google.com/github/XueshunLin/OpenCV-DeepLearning-Projects/blob/main/image_rectification/image_rectification.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/xueshunlin/OpenCV-DeepLearning-Projects/blob/main/image_rectification/image_rectification.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
@@ -30,7 +30,7 @@ This repository contains a collection of state-of-art projects focused on image 
   - `test_image`: Folder containing test images.
 
 ### 3. Deep Learning for Image Classification
- <a target="_blank" href="https://colab.research.google.com/github/XueshunLin/OpenCV-DeepLearning-Projects/blob/main/image_classification/image_classification.ipynb">
+ <a target="_blank" href="https://colab.research.google.com/github/xueshunlin/OpenCV-DeepLearning-Projects/blob/main/image_classification/image_classification.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
